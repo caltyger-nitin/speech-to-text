@@ -92,7 +92,7 @@ for phoneme in out:
     # print(phoneme[-1])
     if phoneme[-1] == '0' or phoneme[-1] == '1' or phoneme[-1] == '2':
         phoneme = phoneme[:-1]
-        out2.append(phoneme)
+        out2.append(phoneme.lower())
     else:
-        out2.append(phoneme)
+        out2.append(phoneme.lower())
 print(out2)
